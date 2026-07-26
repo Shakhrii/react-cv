@@ -1,7 +1,38 @@
+import cls from './Header.module.css';
+
+const menuItems = [
+  {
+    title: "Проекты",
+    href: "#projects",
+  },
+  {
+    title: "Обо мне",
+    href: "#about",
+  },
+  {
+    title: "Контакты",
+    href: "#contact",
+  },
+];
+
 const Header = () => {
   return (
-    <header>
-      Header
+    <header className={cls.header}>
+      <div className={cls.container}>
+        <a href="/" className={cls.logo}>
+          ШАХПЕРИ РАМАЛДАНОВА
+        </a>
+
+        <nav>
+          <ul className={cls.menu}>
+            {menuItems.map((item) => (
+              <li key={item.href}>
+                <a href={item.href}>{item.title}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </div>
     </header>
   );
 };

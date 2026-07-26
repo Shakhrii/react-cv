@@ -1,0 +1,40 @@
+.header {
+  background-color: #0A0A0A;
+  padding: 24px 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: "Bebas Neue";
+  color: #C7C7C7;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #C7C7C7;
+  font-family: "Bebas Neue";
+}
+
+.menu a:hover {
+  opacity: 0.7;
+}

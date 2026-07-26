@@ -3,10 +3,9 @@ import cls from './MainLayout.module.css';
 import { Header } from '../Header';
 import { Suspense } from 'react';
 import { Loader } from '../Loader';
+import Footer from '../Footer/Footer';
 
 function MainLayout() {
-  const currentYear = new Date().getFullYear();
-
   return (
     <>
       <div className={cls.mainLayout}>
@@ -17,9 +16,7 @@ function MainLayout() {
               <Outlet />
             </Suspense>
           </main>
-          <footer className={cls.footer}>
-            React Question Cards Application | {currentYear} <br /> by Shakhri Ramaldanova
-          </footer>
+          <Footer />
         </div>
       </div>
     </>
