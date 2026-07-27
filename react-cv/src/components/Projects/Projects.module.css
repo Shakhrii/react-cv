@@ -1,0 +1,14 @@
+.projects-title {
+  font-family: "Bebas Neue";
+  font-size: 40px;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.projects-subtitle {
+  font-family: "Bebas Neue";
+  font-size: 14px;
+  color: var(--text-color-grey);
+  margin-bottom: 50px;
+}
