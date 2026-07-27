@@ -1,5 +1,5 @@
 .button {
-  background-color: #D3E97A;
+  background-color: var(--accent-color);
   border-radius: 25px;
   color: black;
   padding: 10px 20px;

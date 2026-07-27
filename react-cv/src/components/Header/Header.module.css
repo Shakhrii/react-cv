@@ -1,5 +1,5 @@
 .header {
-  background-color: #0A0A0A;
+  background-color: var(--background-color);
   padding: 24px 0;
 }
 
@@ -15,7 +15,7 @@
 .logo {
   text-decoration: none;
   font-family: "Bebas Neue";
-  color: #C7C7C7;
+  color: var(--text-color-grey);
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
@@ -31,7 +31,7 @@
 
 .menu a {
   text-decoration: none;
-  color: #C7C7C7;
+  color: var(--text-color-grey);
   font-family: "Bebas Neue";
 }
 

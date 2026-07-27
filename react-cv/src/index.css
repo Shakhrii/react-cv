@@ -1,3 +1,9 @@
+:root {
+  --accent-color: #D3E97A;
+  --text-color-grey: #C7C7C7;
+  --background-color: #0A0A0A;
+}
+
 @font-face {
   font-family: "Bebas Neue";
   src: url("./assets/fonts/bebasneuecyrillic.ttf") format("truetype");
@@ -6,7 +12,7 @@
 }
 
 html, body {
-  background-color: #0A0A0A;
+  background-color: var(--background-color);
 }
 
 * {
