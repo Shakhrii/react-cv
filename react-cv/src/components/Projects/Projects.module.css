@@ -7,8 +7,14 @@
 }
 
 .projects-subtitle {
-  font-family: "Bebas Neue";
+  font-family: "Manrope";
   font-size: 14px;
   color: var(--text-color-grey);
   margin-bottom: 50px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
 }

@@ -8,7 +8,13 @@ const Projects = () => {
     <div className={`section cls['projects-wrapper']`}>
       <h2 className={cls['projects-title']}>МОИ ПРОЕКТЫ</h2>
       <p className={cls['projects-subtitle']}>Здесь можно увидеть с какими технологиями я работала</p>
-      {projects.map((project) => <ProjectCard project={project}/>)}
+      <ul className={cls.projects}>
+        {projects.map((project) => 
+          <li key={project.id} className={cls.item}>
+            <ProjectCard project={project}/>
+          </li>)
+        }
+      </ul>
     </div>
   </section>
   )

@@ -3,7 +3,8 @@
   align-items: center;
   justify-content: space-between;
   gap: 50px;
-  font-family: "Bebas Neue";
+  font-family: "Manrope";
+  font-weight: 400;
 }
 
 .card-image {
@@ -43,6 +44,7 @@
 .description-title {
   font-size: 32px;
   color: white;
+  margin: 0;
 }
 
 .description-details {
@@ -76,6 +78,11 @@
   border-bottom: 1px solid var(--accent-color);
 }
 
+.link:hover {
+  color: #b5d243;
+  border-bottom: 1px solid #b5d243;
+}
+
 .arrow {
   width: 24px;
   height: 24px;
@@ -89,7 +96,7 @@
 .stack-item {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 15px;
   font-size: 14px;
 }
 

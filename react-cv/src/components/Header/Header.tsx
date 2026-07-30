@@ -20,7 +20,7 @@ const Header = () => {
     <header className={cls.header}>
       <div className={cls.container}>
         <a href="/" className={cls.logo}>
-          ШАХРИ РАМАЛДАНОВА
+          ШАХПЕРИ РАМАЛДАНОВА
         </a>
 
         <nav>

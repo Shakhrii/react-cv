@@ -14,7 +14,7 @@ const Hero = () => {
       <div className={`${cls['hero-wrapper']} section`}>
         <div className={cls.greetings}>
           <h1 className={cls.name}>
-            Привет! <br />Я Шахри Рамалданова
+            Привет! <br />Я Шахпери Рамалданова
           </h1>
           <h2 className={cls.details}>frontend react developer</h2>
           <div className={cls.contact}>
