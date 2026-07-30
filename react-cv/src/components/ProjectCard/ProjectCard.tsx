@@ -28,11 +28,11 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
           ))}
         </ul>
         <div className={cls.links}>
-          <a href={project.demo} className={cls.link}>
+          <a href={project.demo} className={cls.link} target="_blank">
             <span>LIVE DEMO</span>
             <img src={arrow} alt="arrow" className={cls.arrow} />
           </a>
-          <a href={project.github} className={cls.link}>
+          <a href={project.github} className={cls.link} target="_blank">
             <span>SEE ON GITHUB</span>
             <img src={github} alt="github" className={cls.github} />
           </a>
