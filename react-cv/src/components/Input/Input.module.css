@@ -1,0 +1,21 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  height: 51px;
+  width: 100%;
+  background-color: #1A1A1A;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px;
+}
+
+.label {
+  font-size: 16px;
+  font-family: 'Manrope';
+  color: var(--text-color-grey);
+}

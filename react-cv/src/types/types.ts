@@ -12,3 +12,10 @@ export type Project = {
   demo: string;
   github: string;
 };
+
+export interface IFormValues {
+  name: string
+  email: string
+  subject: string
+  message: string
+}

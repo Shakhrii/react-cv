@@ -1,0 +1,34 @@
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  align-items: start;
+  justify-content: start;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-family: 'Bebas Neue';
+  color: white;
+  flex: 1;
+  display: block;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.form {
+  flex: 1;
+}
