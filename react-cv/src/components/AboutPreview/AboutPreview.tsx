@@ -1,7 +1,7 @@
 import cls from "./AboutPreview.module.css";
 const AboutPreview = () => {
   return (
-    <section className={cls.about} id="contact">
+    <section className={cls.about} id="about">
       <div className={`section ${cls['about-wrapper']}`}>
         <h2 className={cls.title}>ОБО МНЕ</h2>
         <div className={cls.details}>
