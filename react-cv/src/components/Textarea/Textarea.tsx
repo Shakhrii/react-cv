@@ -1,23 +1,23 @@
 import type { Path, UseFormRegister } from "react-hook-form";
 import type { IFormValues } from "../../types/types";
-import cls from './Input.module.css';
+import cls from './Textarea.module.css';
 
-type InputProps = {
+type TextareaProps = {
   label: string;
   name: Path<IFormValues>;
   register: UseFormRegister<IFormValues>;
-  required?: boolean;
+  required: boolean;
   error: boolean
 };
 
-const Input = ({ label, name, register, required, error }: InputProps) => {
+const Textarea = ({label, name, register, required, error}: TextareaProps) => {
   return (
     <div className={cls.field}>
       <label htmlFor={name} className={cls.label}>{label}</label>
-      <input className={`${cls.input} ${error && cls.error}`} id={name} type="text" {...register(name, { required })}/>
+      <textarea rows={6} name={name} id={name} {...register(name, {required})} className={`${cls.textarea} ${error && cls.error}`}></textarea>
       <span className={`${cls['error-message']} ${error && cls.visible}`}>Введите {label}</span>
     </div>
-  );
-};
+  )
+}
 
-export default Input;
+export default Textarea;

@@ -2,17 +2,6 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  position: relative;
-}
-
-.input {
-  height: 51px;
-  width: 100%;
-  background-color: #1A1A1A;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 10px;
 }
 
 .label {
@@ -21,8 +10,18 @@
   color: var(--text-color-grey);
 }
 
+.textarea {
+  width: 100%;
+  background-color: #1A1A1A;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px;
+  resize: none;
+}
+
 .error {
-  border-bottom: 1px solid #a50909;
+  border-bottom: 1px solid rgb(165, 9, 9);
 }
 
 .error-message {

@@ -1,7 +1,7 @@
 import { Button } from "../Button";
 import { Icon } from "../Icon";
 import cls from "./Hero.module.css";
-import photo from "../../assets/images/photo.jpg";
+import photo from "../../assets/images/photo.png";
 import github from '../../assets/images/github-icon.svg';
 import telegram from '../../assets/images/telegram-icon.svg';
 
@@ -13,8 +13,9 @@ const Hero = () => {
     <section className={cls.hero}>
       <div className={`${cls['hero-wrapper']} section`}>
         <div className={cls.greetings}>
+          <p className={cls.hello}>Привет!</p>
           <h1 className={cls.name}>
-            Привет! <br />Я Шахпери Рамалданова
+            Я Шахри Рамалданова
           </h1>
           <h2 className={cls.details}>frontend react developer</h2>
           <div className={cls.contact}>
