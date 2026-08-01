@@ -26,3 +26,7 @@
 .error {
   color: red;
 }
+
+:root {
+  --toastify-color-progress-dark: var(--accent-color);
+}

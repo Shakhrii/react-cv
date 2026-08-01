@@ -2,6 +2,12 @@
   --accent-color: #D3E97A;
   --text-color-grey: #C7C7C7;
   --background-color: #0A0A0A;
+  --toastify-color-progress-dark: #D3E97A;
+  --toastify-color-dark: #D3E97A;
+  --toastify-color-success: #07bc0c;
+  --toastify-toast-background: #fff;
+  --toastify-color-progress-success: var(--toastify-color-success);
+  --toastify-text-color-success: red;
 }
 
 @font-face {
