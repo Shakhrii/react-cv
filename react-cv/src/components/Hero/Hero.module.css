@@ -4,16 +4,14 @@
 
 .hero-wrapper {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   gap: 80px;
-  width: 100%;
 }
 
 .hello {
   font-family: "Bebas Neue";
-  font-size: 40px;
+  font-size: 45px;
   margin: 0;
   padding: 0;
 }
@@ -22,11 +20,13 @@
   display: flex;
   flex-direction: column;
   color: white;
+  align-items: start;
+  justify-content: start;
 }
 
 .name {
   font-family: "Bebas Neue";
-  font-size: 45px;
+  font-size: 70px;
   letter-spacing: 3%;
   margin: 0 0 10px 0;
   padding: 0;
@@ -48,8 +48,8 @@
 }
 
 .photo {
-  width: 400px;
-  height: 500px;
+  max-width: 600px;
+  max-height: 700px;
   border-radius: 16px;
   object-fit: cover;
 }

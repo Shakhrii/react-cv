@@ -3,7 +3,7 @@ import cls from './MainLayout.module.css';
 import { Header } from '../Header';
 import { Suspense } from 'react';
 import { Loader } from '../Loader';
-import Footer from '../Footer/Footer';
+import { Contact } from '../Contact';
 
 function MainLayout() {
   return (
@@ -16,7 +16,7 @@ function MainLayout() {
               <Outlet />
             </Suspense>
           </main>
-          <Footer />
+          <Contact />
         </div>
       </div>
     </>

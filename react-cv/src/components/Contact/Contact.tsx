@@ -3,12 +3,14 @@ import cls from "./Contact.module.css";
 import github from "../../assets/images/github-icon.svg";
 import telegram from "../../assets/images/telegram-icon.svg";
 import gmail from "../../assets/images/gmail.svg";
+import phone from '../../assets/images/phone.svg';
 import { Form } from "../Form";
 
 const Contact = () => {
   const githubLink = "https://github.com/Shakhrii";
   const telegramLink = "https://t.me/Shakhrii";
   const gmailLink = "mailto:sh.ramaldanova@gmail.com";
+  const phoneLink = "tel:+79634211771";
 
   return (
     <section className={cls.about} id="contact">
@@ -29,6 +31,11 @@ const Contact = () => {
             <a href={gmailLink} target="_blank" className={cls.button}>
               <Icon>
                 <img src={gmail} alt="gmail" />
+              </Icon>
+            </a>
+            <a href={phoneLink} target="_blank" className={cls.button}>
+              <Icon>
+                <img src={phone} alt="phone" />
               </Icon>
             </a>
           </div>

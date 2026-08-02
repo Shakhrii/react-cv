@@ -14,24 +14,23 @@ const Form = () => {
   } = useForm<IFormValues>();
 
   const onSubmit: SubmitHandler<IFormValues> = (data) => {
-  //   try {
-  //     emailjs.send(
-  //       import.meta.env.VITE_EMAILJS_SERVICE_ID,
-  //       import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-  //       {
-  //         name: data.name,
-  //         email: data.email,
-  //         subject: data.subject,
-  //         message: data.message,
-  //       },
-  //     );
+    try {
+      emailjs.send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        {
+          name: data.name,
+          email: data.email,
+          subject: data.subject,
+          message: data.message,
+        },
+      );
 
-  //     toast("Сообщение отправлено!");
-  //   } catch (error) {
-  //     console.error(error);
-  //   }
-  toast("Сообщение отправлено!");
-   };
+      toast("Сообщение отправлено!");
+    } catch (error) {
+      console.error(error);
+    }
+  };
 
   return (
     <>
