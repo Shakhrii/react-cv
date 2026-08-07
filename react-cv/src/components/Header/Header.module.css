@@ -20,22 +20,3 @@
   font-weight: 700;
   text-transform: uppercase;
 }
-
-.menu {
-  display: flex;
-  gap: 30px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu a {
-  text-decoration: none;
-  color: var(--text-color-grey);
-  font-family: "Inter";
-  font-size: 16px;
-}
-
-.menu a:hover {
-  opacity: 0.7;
-}

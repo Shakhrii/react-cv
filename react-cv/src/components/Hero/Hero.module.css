@@ -26,7 +26,7 @@
 
 .name {
   font-family: "Bebas Neue";
-  font-size: 70px;
+  font-size: clamp(30px, 4.861vw, 70px);
   letter-spacing: 3%;
   margin: 0 0 10px 0;
   padding: 0;
@@ -48,8 +48,8 @@
 }
 
 .photo {
-  max-width: 600px;
-  max-height: 700px;
+  width: clamp(300px, 41.667vw, 600px);
+  height: auto;
   border-radius: 16px;
   object-fit: cover;
 }

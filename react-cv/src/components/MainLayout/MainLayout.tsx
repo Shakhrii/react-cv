@@ -16,7 +16,7 @@ function MainLayout() {
               <Outlet />
             </Suspense>
           </main>
-          <Contact />
+          {/* <Contact /> */}
         </div>
       </div>
     </>
