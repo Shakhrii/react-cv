@@ -1,0 +1,29 @@
+.header {
+  background-color: var(--background-color);
+  padding: 24px 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: "Bebas Neue";
+  color: var(--text-color-grey);
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+  .container {
+    padding: 0 50px;
+  }
+}
+

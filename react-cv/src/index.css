@@ -1,0 +1,54 @@
+:root {
+  --accent-color: #D3E97A;
+  --text-color-grey: #C7C7C7;
+  --background-color: #0A0A0A;
+  --toastify-color-progress-dark: #D3E97A;
+  --toastify-color-dark: #D3E97A;
+  --toastify-color-success: #07bc0c;
+  --toastify-toast-background: #fff;
+  --toastify-color-progress-success: var(--toastify-color-success);
+  --toastify-text-color-success: red;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("./assets/fonts/bebasneuecyrillic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/inter_medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./assets/fonts/manrope_regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body {
+  background-color: var(--background-color);
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.section {
+  max-width: 1440px;
+  padding: 30px 100px 80px;
+  margin: 0 auto;
+  background-color: #0A0A0A;
+}
+
+@media(max-width: 500px) {
+  .section {
+    padding: 30px 30px 30px;
+  }
+}
