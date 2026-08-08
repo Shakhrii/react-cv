@@ -20,3 +20,10 @@
   font-weight: 700;
   text-transform: uppercase;
 }
+
+@media (max-width: 800px) {
+  .container {
+    padding: 0 50px;
+  }
+}
+
