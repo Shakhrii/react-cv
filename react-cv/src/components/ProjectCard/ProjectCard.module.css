@@ -133,6 +133,10 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
+
+  .projectInfo p {
+    display: none;
+  }
 }
 
 @media(max-width: 500px) {
