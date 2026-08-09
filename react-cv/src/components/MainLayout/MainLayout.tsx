@@ -1,9 +1,9 @@
-import { Outlet } from 'react-router';
-import cls from './MainLayout.module.css';
-import { Header } from '../Header';
-import { Suspense } from 'react';
-import { Loader } from '../Loader';
-import { Contact } from '../Contact';
+import { Outlet } from "react-router";
+import cls from "./MainLayout.module.css";
+import { Header } from "../Header";
+import { Suspense } from "react";
+import { Loader } from "../Loader";
+import { Contact } from "../Contact";
 
 function MainLayout() {
   return (

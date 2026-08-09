@@ -5,7 +5,7 @@ export const menuItems = [
   },
   {
     title: "Обо мне",
-    href: "/about",
+    href: "about",
   },
   {
     title: "Контакты",
