@@ -11,18 +11,17 @@ type ProjectCardProps = {
 const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
     <div className={cls.card}>
-      <div className={cls["card-image"]}>
-        <p className={cls.title}>{project.title}</p>
+      <div className={cls.cardImage}>
         <img src={project.image} alt="project image" className={cls.image} />
       </div>
-      <div className={cls["card-description"]}>
-        <p className={cls["description-title"]}>{project.title}</p>
-        <p className={cls["description-details"]}>{project.description}</p>
-        <ul className={cls["project-info"]}>
+      <div className={cls.cardDescription}>
+        <p className={cls.descriptionTitle}>{project.title}</p>
+        <p className={cls.descriptionDetails}>{project.description}</p>
+        <ul className={cls.projectInfo}>
           <p>Стек: </p>
           {project.stack.map((item) => (
-            <li className={cls["stack-item"]}>
-              <img src={item.icon || placeholder} alt="icon" className={cls["stack-icon"]} />
+            <li className={cls.stackItem}>
+              <img src={item.icon || placeholder} alt="icon" className={cls.stackIcon} />
               {item.value}
             </li>
           ))}
