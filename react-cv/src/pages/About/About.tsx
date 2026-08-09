@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Button } from "../../components/Button";
 import cls from "./About.module.css";
 
@@ -13,6 +14,13 @@ const About = () => {
     "JS / Front-end Course, 2025 г.",
     "JS / Front-end Pre-school RU Course, 2024 г.",
   ];
+
+  useEffect(() => {
+    requestAnimationFrame(() => {
+      window.scrollTo(0, 0);
+    });
+  }, []);
+  
   return (
     <section className={cls.about} id="about">
       <div className={`section ${cls.aboutWrapper}`}>

@@ -29,6 +29,7 @@
   font-family: 'Manrope';
   font-size: 18px;
   color: var(--text-color-grey);
+  text-align: justify;
 }
 
 .link {
