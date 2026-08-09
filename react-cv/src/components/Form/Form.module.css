@@ -4,8 +4,9 @@
   gap: 20px;
 }
 
-.btn-submit {
+.btnSubmit {
   background-color: var(--accent-color);
+  font-family: 'Manrope';
   border-radius: 25px;
   color: black;
   padding: 10px 20px;
@@ -14,12 +15,12 @@
   align-self: start;
 }
 
-.btn-submit:hover {
+.btnSubmit:hover {
   background-color: #b5d243;
   box-shadow: 0px 0px 50px 0px rgba(255, 255, 255, 0.3);
 }
 
-.btn-submit:active {
+.btnSubmit:active {
   background-color: #cfe576;
 }
 

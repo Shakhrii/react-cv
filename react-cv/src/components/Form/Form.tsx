@@ -64,7 +64,7 @@ const Form = () => {
           required
           error={!!errors.message}
         />
-        <input className={cls["btn-submit"]} type="submit" />
+        <input className={cls.btnSubmit} type="submit" value='ОТПРАВИТЬ'/>
       </form>
       <ToastContainer
         position="top-right"
