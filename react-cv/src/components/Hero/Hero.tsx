@@ -18,7 +18,7 @@ const Hero = () => {
           <div className={cls.greetingsText}>
             <p className={cls.hello}>Привет!</p>
             <h1 className={cls.name}>
-              Я Шахпери <br />
+              Я Шахри <br />
               Рамалданова
             </h1>
             <h2 className={cls.details}>frontend react developer</h2>
