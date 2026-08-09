@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import cls from "./AboutPreview.module.css";
 const AboutPreview = () => {
   return (
@@ -12,9 +13,9 @@ const AboutPreview = () => {
             Хорошо работаю в команде, легко нахожу общий язык. Внимательна к деталям и
             соблюдению сроков. Нравится создавать что-то интересное и полезное.
           </p>
-          <a href="" className={cls.link}>
+          <Link to='/about' className={cls.link}>
             ПОДРОБНЕЕ ОБО МНЕ
-          </a>
+          </Link>
         </div>
       </div>
     </section>

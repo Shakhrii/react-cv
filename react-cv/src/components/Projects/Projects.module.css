@@ -21,6 +21,10 @@
 }
 
 @media(max-width: 500px) {
+  .projectsWrapper {
+    padding-bottom: 80px;
+  }
+  
   .projectsTitle {
     font-size: 35px;
   }

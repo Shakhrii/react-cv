@@ -13,7 +13,7 @@ const Hero = () => {
 
   return (
     <section className={cls.hero}>
-      <div className={`section ${cls["hero-wrapper"]}`}>
+      <div className={`section ${cls.heroWrapper}`}>
         <div className={cls.greetings}>
           <div className={cls.greetingsText}>
             <p className={cls.hello}>Привет!</p>

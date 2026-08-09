@@ -11,6 +11,7 @@ const Form = () => {
     register,
     formState: { errors },
     handleSubmit,
+    reset
   } = useForm<IFormValues>();
 
   const onSubmit: SubmitHandler<IFormValues> = (data) => {
@@ -27,6 +28,7 @@ const Form = () => {
       );
 
       toast("Сообщение отправлено!");
+      reset();
     } catch (error) {
       console.error(error);
     }

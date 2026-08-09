@@ -27,11 +27,11 @@ const Menu = () => {
   return (
     <div>
       <div
-        className={`${cls.overlay} ${active ? cls["overlay-active"] : ""}`}
+        className={`${cls.overlay} ${active ? cls.overlayActive : ""}`}
         onClick={() => setActive(false)}
       />
       <nav>
-        <ul className={`${cls.menu} ${active && cls["menu-active"]}`}>
+        <ul className={`${cls.menu} ${active && cls.menuActive}`}>
           {menuItems.map((item) => (
             <li key={item.href} onClick={() => setActive(false)}>
               <a href={item.href}>{item.title}</a>
@@ -40,7 +40,7 @@ const Menu = () => {
         </ul>
       </nav>
       <button
-        className={`${cls["burger-btn"]} ${active && cls["menu-active"]}`}
+        className={`${cls.burgerBtn} ${active && cls.menuActive}`}
         onClick={btnBurgerClickHandler}
       >
         <span></span>

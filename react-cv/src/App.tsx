@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />
-          <Route path="/question/:id" element={<About />} />
+          <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>

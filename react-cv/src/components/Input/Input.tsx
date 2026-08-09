@@ -15,7 +15,7 @@ const Input = ({ label, name, register, required, error }: InputProps) => {
     <div className={cls.field}>
       <label htmlFor={name} className={cls.label}>{label}</label>
       <input className={`${cls.input} ${error && cls.error}`} id={name} type="text" {...register(name, { required })}/>
-      <span className={`${cls['error-message']} ${error && cls.visible}`}>Введите {label}</span>
+      <span className={`${cls.errorMessage} ${error && cls.visible}`}>Введите {label}</span>
     </div>
   );
 };
