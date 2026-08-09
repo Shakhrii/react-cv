@@ -5,9 +5,9 @@ import {projects} from '../../data/projects';
 const Projects = () => {
   return (
   <section className={cls.projects} id="projects">
-    <div className={`section cls['projects-wrapper']`}>
-      <h2 className={cls['projects-title']}>МОИ ПРОЕКТЫ</h2>
-      <p className={cls['projects-subtitle']}>Здесь можно увидеть с какими технологиями я работала</p>
+    <div className={`section ${cls.projectsWrapper}`}>
+      <h2 className={cls.projectsTitle}>МОИ ПРОЕКТЫ</h2>
+      <p className={cls.projectsSubtitle}>Здесь можно увидеть с какими технологиями я работала</p>
       <ul className={cls.projects}>
         {projects.map((project) => 
           <li key={project.id} className={cls.item}>

@@ -1,4 +1,4 @@
-.about-wrapper {
+.aboutWrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -43,4 +43,28 @@
 .link:hover {
   color: #b5d243;
   border-bottom: 1px solid #b5d243;
+}
+
+@media(max-width: 800px) {
+  .aboutWrapper {
+    flex-direction: column;
+  }
+
+  .title {
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 500px) {
+  .aboutWrapper {
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 35px;
+  }
+
+  .subtitle {
+    font-size: 25px;
+  }
 }

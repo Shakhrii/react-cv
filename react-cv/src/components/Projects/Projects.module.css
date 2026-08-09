@@ -1,4 +1,4 @@
-.projects-title {
+.projectsTitle {
   font-family: "Bebas Neue";
   font-size: 40px;
   color: white;
@@ -6,7 +6,7 @@
   padding: 0;
 }
 
-.projects-subtitle {
+.projectsSubtitle {
   font-family: "Manrope";
   font-size: 14px;
   color: var(--text-color-grey);
@@ -18,4 +18,10 @@
   flex-direction: column;
   gap: 120px;
   padding: 0;
+}
+
+@media(max-width: 500px) {
+  .projectsTitle {
+    font-size: 35px;
+  }
 }
