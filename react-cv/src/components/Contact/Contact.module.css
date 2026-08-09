@@ -1,4 +1,4 @@
-.contact-wrapper {
+.contactWrapper {
   display: flex;
   flex-direction: row;
   align-items: start;
@@ -31,4 +31,21 @@
 
 .form {
   flex: 1;
+}
+
+@media(max-width: 900px) {
+  .contactWrapper {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .form {
+    width: 100%;
+  }
+}
+
+@media(max-width: 500px) {
+  .title {
+    font-size: 35px;
+  }
 }

@@ -14,7 +14,7 @@ const Contact = () => {
 
   return (
     <section className={cls.about} id="contact">
-      <div className={`section ${cls["contact-wrapper"]}`}>
+      <div className={`section ${cls.contactWrapper}`}>
         <div className={cls.links}>
           <h2 className={cls.title}>КОНТАКТЫ</h2>
           <div className={cls.icons}>
