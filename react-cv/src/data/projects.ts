@@ -20,6 +20,30 @@ import christmas_shop from '../assets/images/christmas-shop.png';
 export const projects: Project[] = [
   {
     id: 1, 
+    image: shelter,
+    title: 'Shelter', 
+    description: 'Приложение для приюта животных',
+    stack: 
+    [
+      {icon: javascript, value: 'JavaScript'}, 
+    ],
+    demo: 'https://shakhrii.github.io/Shelter/pages/main',
+    github: 'https://github.com/Shakhrii/Shelter/tree/main',
+  },
+    {
+    id: 2, 
+    image: christmas_shop,
+    title: 'Christmas Shop', 
+    description: 'Магазин рождественских игрушек',
+    stack: 
+    [
+      {icon: javascript, value: 'JavaScript'}, 
+    ],
+    demo: 'https://rolling-scopes-school.github.io/shakhrii-JSFE2024Q4/christmas-shop/pages/gifts/gifts.html',
+    github: 'https://github.com/rolling-scopes-school/shakhrii-JSFE2024Q4/tree/christmas-shop/christmas-shop',
+  },
+  {
+    id: 3, 
     image: pokemon,
     title: 'Pokemons Api', 
     description: 'Приложение для отображение карточек с покемонами, поиском по имени и id. Детальная информация о каждом покемоне. Пагинация, кэширование запросов и ручной рефетч запросов',
@@ -35,11 +59,11 @@ export const projects: Project[] = [
       {icon: '', value: 'Husky'}, 
       {icon: '', value: 'Vitest'}
     ],
-    demo: 'https://rss-pokemons.netlify.app/pokemons/?page=1',
+    demo: 'https://rss-pokemons.netlify.app/pokemons?page=1',
     github: 'https://github.com/Shakhrii/rs-react-app/tree/api-queries',
   },
   {
-    id: 2, 
+    id: 4, 
     image: users_app,
     title: 'Users app', 
     description: 'Приложение для управления пользователями, с такими возможностями как: авторизация, создание пользователя, редактирование пользователя, удаление пользователя со стейт менеджером и кэшированием запросов',
@@ -59,7 +83,7 @@ export const projects: Project[] = [
     github: 'https://github.com/Shakhrii/Users-App',
   },
   {
-    id: 3, 
+    id: 5, 
     image: vinyl_store,
     title: 'Vinyl Store', 
     description: 'Командный проект - магазин виниловых пластинок, с возможностью фильтрации и поиска, реализована корзина',
@@ -81,29 +105,5 @@ export const projects: Project[] = [
     ],
     demo: 'https://deft-dragon-afee4f.netlify.app/login',
     github: 'https://github.com/dmalashev/eCommerce-Application/tree/develop',
-  },
-  {
-    id: 4, 
-    image: shelter,
-    title: 'Shelter', 
-    description: 'Приложение для приюта животных',
-    stack: 
-    [
-      {icon: javascript, value: 'JavaScript'}, 
-    ],
-    demo: 'https://shakhrii.github.io/Shelter/pages/main/',
-    github: 'https://github.com/Shakhrii/Shelter/tree/main',
-  },
-    {
-    id: 5, 
-    image: christmas_shop,
-    title: 'Christmas Shop', 
-    description: 'Магазин рождественских игрушек',
-    stack: 
-    [
-      {icon: javascript, value: 'JavaScript'}, 
-    ],
-    demo: 'https://rolling-scopes-school.github.io/shakhrii-JSFE2024Q4/christmas-shop/pages/gifts/gifts.html',
-    github: 'https://github.com/rolling-scopes-school/shakhrii-JSFE2024Q4/tree/christmas-shop/christmas-shop',
   },
 ]
